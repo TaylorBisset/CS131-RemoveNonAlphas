@@ -27,6 +27,7 @@ string RemoveNonAlpha(string userString)
 			result += c;
 		}
 	}
+	return result;
 }
 
 int main() 
@@ -34,6 +35,7 @@ int main()
 	string userString;
 	getline(cin, userString);
 	string allAlpha = RemoveNonAlpha(userString);
+	cout << allAlpha << endl;
 
 	return 0;
 }
