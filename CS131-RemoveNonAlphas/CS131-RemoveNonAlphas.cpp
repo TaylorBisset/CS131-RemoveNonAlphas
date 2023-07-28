@@ -15,10 +15,20 @@ string RemoveNonAlpha(string userString)
 #include <iostream>
 using namespace std;
 
-/* Define your function here */
+string RemoveNonAlpha(string userString)
+{
+	string result = "";
+	for (char c : userString)
+	{
+		if (isalpha(c))
+		{
+			result += c;
+		}
+	}
+}
 
-int main() {
-
+int main() 
+{
 	/* Type your code here. Your code must call the function.  */
 
 	return 0;
