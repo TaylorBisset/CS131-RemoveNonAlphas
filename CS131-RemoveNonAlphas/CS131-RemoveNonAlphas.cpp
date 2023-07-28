@@ -13,8 +13,13 @@ string RemoveNonAlpha(string userString)
 */
 
 #include <iostream>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+/* Define your function here */
+
+int main() {
+
+	/* Type your code here. Your code must call the function.  */
+
+	return 0;
 }
