@@ -13,6 +13,8 @@ string RemoveNonAlpha(string userString)
 */
 
 #include <iostream>
+#include <cctype>
+#include <string>
 using namespace std;
 
 string RemoveNonAlpha(string userString)
@@ -29,7 +31,9 @@ string RemoveNonAlpha(string userString)
 
 int main() 
 {
-	/* Type your code here. Your code must call the function.  */
+	string userString;
+	getline(cin, userString);
+	string allAlpha = RemoveNonAlpha(userString);
 
 	return 0;
 }
